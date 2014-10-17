@@ -1,0 +1,45 @@
+/* Reset CSS: from YUI2: Reset CSS */
+html{color:#000;
+	background:#FFF; 
+	padding:20px 0;
+	font: 16px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdana, Arial, Tahoma;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:10;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{font-size:100%;}
+
+/* layout */
+#wrap {width:960px; margin:0 auto; background-color:#fff}
+
+/* Basic */
+h1{font-size:20px;font-weight:bold;line-height:28px;}
+h2 {font-size:18px;line-height:24px;font-weight:bold;}
+table {width:85%;}
+tr{text-align:center;}
+th{text-align:center;font-weight:bold;}
+td{text-align:center;width:17%;}
+li{margin-bottom:10px;}
+a{text-decoration:none;color:black;}
+
+/* header */
+#header {width:60%; height:135px;clear:both;}
+#header_left{width:25%; float:left;}
+#header_logo{width:75%;float:left;}
+
+/* content */
+#content {width:100%;clear:both;}
+#content_list1{clear:both;}
+#content_list2{clear:both;}
+#content_image{float:left;}
+#content_main{float:left;}

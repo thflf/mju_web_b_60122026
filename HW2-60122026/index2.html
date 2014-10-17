@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>설문조사</title>
+	<link href="./style.css" type ="text/css" rel="stylesheet" />
+</head>
+<body>
+	<div id="wrap">
+		<table>
+			<tr>
+				<td>
+					<a href="./index.html"><h1 style="background-color:#F27272;">인물정보</h1></a>
+				</td>
+				<td>
+					<a href="./index2.html"><h1 style="background-color:#E9F272;">설문조사</h1></a>
+				</td>
+				<td>
+					<a href="./index3.html"><h1 style="background-color:#85F272;">방문자 기록남기기</h1></a>
+				</td>
+			</tr>
+		</table>
+		<h1>설문조사</h1>
+		<form action="#" method="post">
+			<ol>
+				<li><h3>당신의 성별은?</h3>
+					<input type="radio" name="sex" value="m"/>남
+					<input type="radio" name="sex" value="f"/>녀
+				</li>
+				<li><h3>당신과 차현경의 관계는?</h3>
+					<input type="radio" name="relation" value="r1"/>가족
+					<input type="radio" name="relation" value="r2"/>친구
+					<input type="radio" name="relation" value="r3"/>선배
+					<input type="radio" name="relation" value="r4"/>후배
+					<input type="radio" name="relation" value="r5"/>기타<input type="text" name="relation">
+				</li>
+				<li><h3>차현경과는 얼마나 친한가요?</h3>
+					<ul>
+						<li><input type="radio" name="friendly" value="fr1"/>매우 친함.</li>
+						<li><input type="radio" name="friendly" value="fr2"/>친함.</li>
+						<li><input type="radio" name="friendly" value="fr3"/>보통.</li>
+						<li><input type="radio" name="friendly" value="fr4"/>안친함.</li>
+						<li><input type="radio" name="friendly" value="fr5"/>매우 안친함.</li>
+						<li><input type="radio" name="friendly" value="fr6"/>기타<input type="text" name="friendly"/></li>
+					</ul>
+				</li>
+				<li><h3>차현경의 첫인상은 어땠나요? (복수응답가능)</h3>
+					<ul>
+						<li><input type="Checkbox" name="firstImpression" value="fi1"/>착하다.</li>
+						<li><input type="Checkbox" name="firstImpression" value="fi2"/>나쁘다.</li>
+						<li><input type="Checkbox" name="firstImpression" value="fi3"/>무섭다.</li>
+						<li><input type="Checkbox" name="firstImpression" value="fi4"/>더럽다.</li>
+						<li><input type="Checkbox" name="firstImpression" value="fi5"/>신비하다.</li>
+						<li><input type="Checkbox" name="firstImpression" value="fi6"/>기타<input type="text" name="firstImpression"></li>
+					</ul>
+				</li>
+				<li><h3>차현경의 성격은 어떤가요? (복수응답가능)</h3>
+					<ul>
+						<li><input type="Checkbox" name="character" value="ch1"/>재미있다</li>
+						<li><input type="Checkbox" name="character" value="ch2"/>엉뚱하다</li>
+						<li><input type="Checkbox" name="character" value="ch3"/>시크하다</li>
+						<li><input type="Checkbox" name="character" value="ch4"/>집착한다</li>
+						<li><input type="Checkbox" name="character" value="ch5"/>쪼잔하다</li>
+						<li><input type="Checkbox" name="character" value="ch6"/>기타<input type="text" name="character"></li>
+					</ul>
+				</li>
+				<li><h3>차현경에게 하고싶은 말이 있으면 적어주세요.</h3>
+					<textarea cols="50" rows="8" name="opinion"></textarea>
+				</li>
+			</ol>
+			<table>
+				<tr>
+					<td><input type="button" value="제출"/></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
